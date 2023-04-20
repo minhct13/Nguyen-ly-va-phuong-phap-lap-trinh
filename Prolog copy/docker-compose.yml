@@ -1,0 +1,6 @@
+version: '3'
+services:
+  prolog:
+    build: .
+    # command: ["-g", "a_star(state(left, left, left, left), Path), writeln(Path), halt."]
+      # command ["swipl", "-s", "farmer.pl"]
