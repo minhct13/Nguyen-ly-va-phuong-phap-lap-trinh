@@ -1,0 +1,6 @@
+version: "1.0"
+
+services:
+  farmer-wolf-cabbage-sheep:
+    build: .
+    command: java -cp /app FarmerWolfCabbageSheep
